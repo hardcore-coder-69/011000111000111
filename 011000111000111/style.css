@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+    color: rgb(3, 229, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    padding: 10px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.pointer {
+    color: #fff;
+    background-color: #fff;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#script_name {
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.fire {
+    background-image: url("./assets/fire.gif");
+    height: 500px;
+    width: 400px;
+}
